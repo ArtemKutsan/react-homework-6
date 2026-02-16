@@ -4,7 +4,7 @@ import axios from 'axios';
 import { useState, useEffect } from 'react';
 import { mockData } from './mockData';
 
-const BASE_URL = 'https://randomuser.me/api/1.0';
+const BASE_URL = 'https://randomuser.me/api/0.8';
 
 export default function UserProfile() {
   const [user, setUser] = useState(null);
